@@ -1,0 +1,4 @@
+Task_ID,Title,Case_IDs
+NFR-TASK-01,Check task board usability and responsive layout,TC-001;TC-002
+NFR-TASK-02,Check recovery of a deleted task,TC-005
+NFR-TASK-03,Check the task API and role-based access,TC-003;TC-004;TC-006

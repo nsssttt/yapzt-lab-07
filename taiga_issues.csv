@@ -1,0 +1,7 @@
+Issue_ID,Title,Story_ID
+LAB7-001,Do create a task,US-001
+LAB7-002,Do edit a task,US-002
+LAB7-003,Do assign a task,US-003
+LAB7-004,Do update task status,US-004
+LAB7-005,Do delete and restore a task,US-005
+LAB7-006,Do manage task comments,US-006

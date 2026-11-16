@@ -1,0 +1,7 @@
+Case_ID,Story_ID,Requirement,Title,Steps,Expected
+TC-001,US-001,FR-001,Create a task,A signed-in member can create a task with a title and due date.,The task appears on the board with the submitted values.
+TC-002,US-002,FR-002,Edit a task,The task owner updates the title and description.,The updated values are shown after saving.
+TC-003,US-003,FR-003,Assign a task,The task owner assigns an active member to a task.,The selected assignee appears in task details.
+TC-004,US-004,FR-004,Update task status,The assigned member changes the status of their task.,The new status appears on the board.
+TC-005,US-005,FR-005,Delete and restore a task,The owner moves a task to trash and an administrator restores it.,The restored task is visible on the board.
+TC-006,US-006,FR-006,Manage task comments,An authorized task participant adds and edits a comment.,The updated comment appears in task details.

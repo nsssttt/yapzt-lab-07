@@ -1,0 +1,21 @@
+services:
+  taskboard:
+    build: .
+    image: yapzt-lab7-taskboard:local
+    ports:
+      - "127.0.0.1:8787:8787"
+    volumes:
+      - taskboard_data:/data
+    environment:
+      APP_HOST: 0.0.0.0
+      APP_PORT: 8787
+      APP_DB: /data/taskboard.sqlite3
+    restart: unless-stopped
+    healthcheck:
+      test: ["CMD", "python", "-c", "import urllib.request; urllib.request.urlopen('http://127.0.0.1:8787/health', timeout=3)"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+
+volumes:
+  taskboard_data:
